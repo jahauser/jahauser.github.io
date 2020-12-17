@@ -23,7 +23,10 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -3394,9 +3397,10 @@ input, select, textarea {
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
+            text-align: center;
 		}
 
-			#banner .logo .icon {
+			#banner .logo .fas {
 				border-radius: 100%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
 				cursor: default;
@@ -3406,6 +3410,21 @@ input, select, textarea {
 				line-height: 2.25em;
 				text-align: center;
 				width: 2.25em;
+                margin-left: 15px;
+                margin-right: 15px;
+			}
+			#banner .logo .fab {
+				border-radius: 100%;
+				border: solid 2px rgba(255, 255, 255, 0.125);
+				cursor: default;
+				display: inline-block;
+				font-size: 2em;
+				height: 2.25em;
+				line-height: 2.25em;
+				text-align: center;
+				width: 2.25em;
+                margin-left: 15px;
+                margin-right: 15px;
 			}
 
 		#banner h2 {
